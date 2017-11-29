@@ -14,8 +14,7 @@ instructor: ["Sue McClatchy", "Narayanan Raghupathy"]
 helper: ["FIXME"]     
 email: ["susan.mcclatchy@jax.org"]    
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
----
+eventbrite:40878987151
 
 <!-- See instructions in the comments below for how to edit specific sections of this workshop template. -->
 
@@ -193,30 +192,34 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     <div class="col-md-6">
         <h3>Tuesday, February 6</h3>
             <table class="table table-striped">
-                <tr> <td>09:00</td>  <td><a href="{{site.swc_pages}}/python-novice-inflammation/">Workshop Overview</a></td> </tr>
-                <tr> <td>09:15</td>  <td><a href="{{site.swc_pages}}/python-novice-inflammation/01-numpy/">Analyzing Patient Data</a></td> </tr>
+                <tr> <td>09:00</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/">Workshop Overview</a></td> </tr>
+                <tr> <td>09:15</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/01-run-quit/">Running and Quitting</a></td> </tr>
+                <tr> <td>09:45</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/02-variables/">Variables and Assignment</a></td> </tr>
+                <tr> <td>10:15</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/03-types-conversion/">Data Types and Type Conversion</a></td> </tr>
                 <tr> <td>10:45</td>  <td>Coffee</td> </tr>
-                <tr> <td>11:00</td>  <td><a href="{{site.swc_pages}}/python-novice-inflammation/02-loop/">Repeating Actions with Loops</a></td> </tr>
+                <tr> <td>11:00</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/04-built-in/">Built-in Functions and Help</a></td> </tr>
+                <tr> <td>11:30</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/06-libraries/">Libraries</a></td> </tr>
                 <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-                <tr> <td>13:00</td>  <td><a href="{{site.swc_pages}}/python-novice-inflammation/03-lists/">Storing Multiple Values in Lists</a></td> </tr>
-                <tr> <td>14:00</td>  <td><a href="{{site.swc_pages}}/python-novice-inflammation/04-files/">Analyzing Data from Multiple Files</a></td> </tr>
+                <tr> <td>13:00</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/07-reading-tabular/">Reading Tabular Data into DataFrames</a></td> </tr>
+                <tr> <td>13:45</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/08-data-frames/">Pandas DataFrames</a></td> </tr>
                 <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-                <tr> <td>14:45</td>  <td><a href="{{site.swc_pages}}/python-novice-inflammation/05-cond/">Making Choices</a></td> </tr>
-                <tr> <td>15:45</td>  <td><a href="{{site.swc_pages}}/python-novice-inflammation/06-func/">Creating Functions</a></td> </tr>
+                <tr> <td>14:45</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/09-plotting/">Plotting</a></td> </tr>
+                <tr> <td>15:30</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/11-lists/">Lists</a></td> </tr>
                 <tr> <td>16:15</td>  <td>Wrap-up</td> </tr>
             </table>
     </div>
     <div class="col-md-6">
         <h3>Wednesday, February 7</h3>
             <table class="table table-striped">
-                    <tr> <td>09:00</td>  <td><a href="{{site.swc_pages}}/python-novice-inflammation/07-errors/">Errors and Exceptions</a></td> </tr>
-                    <tr> <td>10:00</td>  <td><a href="{{site.swc_pages}}/python-novice-inflammation/08-defensive/">Defensive Programming</a> </td> </tr>
+                    <tr> <td>09:00</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/12-for-loops/">For Loops</a></td> </tr>
+                    <tr> <td>10:00</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/13-looping-data-sets/">Looping Over Data Sets</a> </td> </tr>
                     <tr> <td>10:45</td>  <td>Coffee</td> </tr>
-                    <tr> <td>11:00</td>  <td><a href="{{site.swc_pages}}/python-novice-inflammation/09-debugging/">Debugging</a></td> </tr>
+                    <tr> <td>11:00</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/14-writing-functions/">Writing Functions</a></td> </tr>
                     <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-                    <tr> <td>13:00</td>  <td><a href="{{site.swc_pages}}/python-novice-inflammation/10-cmdline/">Command-Line Programs</a></td> </tr>
+                    <tr> <td>13:00</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/15-scope/">Variable Scope</a></td> </tr>
+                    <tr> <td>13:30</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/17-conditionals/">Conditionals</a></td> </tr>
                     <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-                    <tr> <td>14:45</td>  <td><a href="{{site.swc_pages}}/python-novice-inflammation/10-cmdline/">Command-Line Programs (continued)</a></td> </tr>
+                    <tr> <td>14:45</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/18-style/">Programming Style</a></td> </tr>
                     <tr> <td>16:15</td>  <td>Wrap-up</td> </tr>
             </table>
     </div>
