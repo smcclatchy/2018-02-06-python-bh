@@ -195,7 +195,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
                 <table class="table table-striped">
                     <tr> <td>09:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/">Workshop Overview</td> </tr>
                     <tr> <td>09:15</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/01-numpy/">Analyzing Patient Data</td> </tr>
-                    <tr> <td>10:45</td> <td>Coffee</td> </tr>
+                    <tr> <td>10:45</td>  <td>Coffee</td> </tr>
                     <tr> <td>11:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/02-loop/">Repeating Actions with Loops</td> </tr>
                     <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
                     <tr> <td>13:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/03-lists/">Storing Multiple Values in Lists</td> </tr>
@@ -211,16 +211,16 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
                 <table class="table table-striped">
                         <tr> <td>09:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/07-errors/">Errors and Exceptions</td> </tr>
                         <tr> <td>10:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/08-defensive/">Defensive Programming</a> </td> </tr>
-                        <tr> <td>10:45</td> <td>Coffee</td> </tr>
+                        <tr> <td>10:45</td>  <td>Coffee</td> </tr>
                         <tr> <td>11:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/09-debugging/">Debugging</a></td> </tr>
                         <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
                         <tr> <td>13:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/10-cmdline/">Command-Line Programs</a></td> </tr>
                         <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-                        <tr> <td>14:45</td>  <tr> <td></td>  <td><a href="{{swc_pages}}/python-novice-inflammation/10-cmdline/">Command-Line Programs (continued)</a></td> </tr>
+                        <tr> <td>14:45</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/10-cmdline/">Command-Line Programs (continued)</a></td> </tr>
                         <tr> <td>16:15</td>  <td>Wrap-up</td> </tr>
                 </table>
-            </div>
         </div>
+    </div>
 
 
 
@@ -397,62 +397,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     </div>
   </div>
 </div> <!-- End of 'shell' section. -->
-
-<div id="git"> <!-- Start of 'Git' section. GitHub browser compatability
-           is given at https://help.github.com/articles/supported-browsers/-->
-  <h3>Git</h3>
-  <p>
-    Git is a version control system that lets you track who made changes
-    to what when and has options for easily updating a shared or public
-    version of your code
-    on <a href="https://github.com/">github.com</a>. You will need a
-    <a href="https://help.github.com/articles/supported-browsers/">supported</a>
-    web browser (current versions of Chrome, Firefox or Safari,
-    or Internet Explorer version 9 or above).
-  </p>
-  <p>
-    You will need an account at <a href="https://github.com/">github.com</a>
-    for parts of the Git lesson. Basic GitHub accounts are free. We encourage
-    you to create a GitHub account if you don't have one already.
-    Please consider what personal information you'd like to reveal. For
-    example, you may want to review these
-    <a href="https://help.github.com/articles/keeping-your-email-address-private/">instructions
-    for keeping your email address private</a> provided at GitHub.
-  </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="git-windows">Windows</h4>
-      <p>
-        Git should be installed on your computer as part of your Bash
-        install (described above).
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="git-macosx">Mac OS X</h4>
-      <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">Video Tutorial</a>
-      <p>
-        <strong>For OS X 10.9 and higher</strong>, install Git for Mac
-        by downloading and running the most recent "mavericks" installer from
-        <a href="http://sourceforge.net/projects/git-osx-installer/files/">this list</a>.
-        After installing Git, there will not be anything in your <code>/Applications</code> folder,
-        as Git is a command line program.
-        <strong>For older versions of OS X (10.5-10.8)</strong> use the
-        most recent available installer labelled "snow-leopard"
-        <a href="http://sourceforge.net/projects/git-osx-installer/files/">available here</a>.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="git-linux">Linux</h4>
-      <p>
-        If Git is not already available on your machine you can try to
-        install it via your distro's package manager. For Debian/Ubuntu run
-        <code>sudo apt-get install git</code> and for Fedora run
-        <code>sudo dnf install git</code>.
-      </p>
-    </div>
-  </div>
-</div> <!-- End of 'Git' section. -->
 
 <div id="editor"> <!-- Start of 'editor' section. -->
   <h3>Text Editor</h3>
