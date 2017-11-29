@@ -1,18 +1,18 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-carpentry: "FIXME"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
-venue: "FIXME"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
-country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
-language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "FIXME"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
-humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+carpentry: ""    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
+venue: "The Jackson Laboratory"       
+address: "Bioinformatics Training Room, 600 Main Street, Bar Harbor, Maine" 
+country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
+language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
+latlng: "44.365994,-68.196389"      
+humandate: "Feb 6-7, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2018-02-06     # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2018-02-07        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Sue McClatchy", "Narayanan Raghupathy"] 
+helper: ["FIXME"]     
+email: ["susan.mcclatchy@jax.org"]    
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -46,10 +46,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h4>This is the workshop template. Delete these lines and use it to customize your own website.
-If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
-and our administrator may contact you if we need any extra information.</h4>
 
 <h2 id="general">General Information</h2>
 
@@ -122,7 +118,7 @@ and our administrator may contact you if we need any extra information.</h4>
   <strong>Requirements:</strong> Participants must bring a laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
   on. They should have a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
+  <a href="#setup">below</a>). They are also required to abide by the
   {% if page.carpentry == "swc" %}
   Software Carpentry's
   {% elsif page.carpentry == "dc" %}
@@ -193,28 +189,40 @@ and our administrator may contact you if we need any extra information.</h4>
 -->
 <h2 id="schedule">Schedule</h2>
 
-<!-- DO NOT EDIT SURVEY LINKS -->
-<p><em>Surveys</em></p>
-{% if page.carpentry == "swc" %} 
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif page.carpentry == "dc" %}
-  <p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif page.carpentry == "lc" %}
-<p>Ask your instructor about pre- and post-workshop Survey details.</p>
-{% endif %}
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Tuesday, February 6</h3>
+                <table class="table table-striped">
+                    <tr> <td>09:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/">Workshop Overview</td> </tr>
+                    <tr> <td>09:15</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/01-numpy/">Analyzing Patient Data</td> </tr>
+                    <tr> <td>10:45</td> <td>Coffee</td> </tr>
+                    <tr> <td>11:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/02-loop/">Repeating Actions with Loops</td> </tr>
+                    <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
+                    <tr> <td>13:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/03-lists/">Storing Multiple Values in Lists</td> </tr>
+                    <tr> <td>14:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/04-files/">Analyzing Data from Multiple Files</td> </tr>     
+                    <tr> <td>14:30</td>  <td>Coffee</td> </tr>
+                    <tr> <td>14:45</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/05-cond/">Making Choices</td> </tr>                    
+                    <tr> <td>15:45</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/06-func/">Creating Functions</td> </tr>
+                    <tr> <td>16:15</td>  <td>Wrap-up</td> </tr>
+                </table>
+            </div>
+        <div class="col-md-6">
+            <h3>Wednesday, February 7</h3>
+                <table class="table table-striped">
+                        <tr> <td>09:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/07-errors/">Errors and Exceptions</td> </tr>
+                        <tr> <td>10:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/08-defensive/">Defensive Programming</a> </td> </tr>
+                        <tr> <td>10:45</td> <td>Coffee</td> </tr>
+                        <tr> <td>11:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/09-debugging/">Debugging</a></td> </tr>
+                        <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
+                        <tr> <td>13:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/10-cmdline/">Command-Line Programs</a></td> </tr>
+                        <tr> <td>14:30</td>  <td>Coffee</td> </tr>
+                        <tr> <td>14:45</td>  <tr> <td></td>  <td><a href="{{swc_pages}}/python-novice-inflammation/10-cmdline/">Command-Line Programs (continued)</a></td> </tr>
+                        <tr> <td>16:15</td>  <td>Wrap-up</td> </tr>
+                </table>
+            </div>
+        </div>
 
 
-{% if page.carpentry == "swc" %}
-  {% include sc/schedule.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/schedule.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/schedule.html %}
-{% endif %}
 
 <!--
   Collaborative Notes
@@ -251,17 +259,21 @@ and our administrator may contact you if we need any extra information.</h4>
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 -->
-<h2 id="syllabus">Syllabus</h2>
-
-{% if page.carpentry == "swc" %}
-  {% include sc/syllabus.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/syllabus.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/syllabus.html %}
-{% endif %}
-
-<hr/>
+<table class="table table-striped">
+    <div class="col-md-6">
+        <h3 id="syllabus-python">Programming in Python</h3>
+            <ul>
+                <li>Using libraries</li>
+                <li>Working with arrays</li>
+                <li>Reading and plotting data</li>
+                <li>Creating and using functions</li>
+                <li>Loops and conditionals</li>
+                <li>Defensive programming</li>
+                <li>Using Python from the command line</li>
+                <li><a href="{{site.swc_pages}}/python-novice-inflammation/reference/">Reference...</a></li>
+            </ul>
+    </div>
+</table>
 
 <!--
   SETUP
@@ -606,150 +618,6 @@ and our administrator may contact you if we need any extra information.</h4>
   </p>
 -->
 </div> <!-- End of 'Python' section. -->
-
-<div id="r"> <!-- Start of 'R' section. -->
-  <h3>R</h3>
-
-  <p>
-    <a href="http://www.r-project.org">R</a> is a programming language
-    that is especially powerful for data exploration, visualization, and
-    statistical analysis. To interact with R, we use
-    <a href="http://www.rstudio.com/">RStudio</a>.
-  </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="r-windows">Windows</h4>
-      <a href="https://www.youtube.com/watch?v=q0PjTAylwoU">Video Tutorial</a>
-      <p>
-        Install R by downloading and running
-        <a href="http://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
-        Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-        Note that if you have separate user and admin accounts, you should run the 
-        installers as administrator (right-click on .exe file and select "Run as 
-        administrator" instead of double-clicking). Otherwise problems may occur later, 
-        for example when installing R packages.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="r-macosx">Mac OS X</h4>
-      <a href="https://www.youtube.com/watch?v=5-ly3kyxwEg">Video Tutorial</a>
-      <p>
-        Install R by downloading and running
-        <a href="http://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
-        Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="r-linux">Linux</h4>
-      <p>
-        You can download the binary files for your distribution
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>. Or
-        you can use your package manager (e.g. for Debian/Ubuntu
-        run <code>sudo apt-get install r-base</code> and for Fedora run
-        <code>sudo dnf install R</code>).  Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-  </div>
-</div> <!-- End of 'R' section. -->
-
-<div id="sql"> <!-- Start of 'SQLite' section. -->
-  <h3>SQLite</h3>
-
-  <p>
-    SQL is a specialized programming language used with databases.  We
-    use a simple database manager called
-    <a href="http://www.sqlite.org/">SQLite</a> in our lessons.
-  </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="sql-windows">Windows</h4>
-      <p>
-        The <a href="{{site.swc_installer}}">
-          {% if page.carpentry == "swc" %}
-          Software Carpentry
-          {% elsif page.carpentry == "dc" %}
-          Data Carpentry
-          {% elsif page.carpentry == "lc" %}
-          Library Carpentry
-          {% endif %}
-          Windows Installer
-	</a>
-        installs SQLite for Windows.
-        If you used the installer to configure nano, you don't need to run it again.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="sql-macosx">Mac OS X</h4>
-      <p>
-        SQLite comes pre-installed on Mac OS X.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="sql-linux">Linux</h4>
-      <p>
-        SQLite comes pre-installed on Linux.
-      </p>
-    </div>
-  </div>
-
-  <p><strong>If you installed Anaconda, it also has a copy of SQLite
-    <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
-    Instructors will provide a workaround for it if needed.</strong></p>
-</div> <!-- End of 'SQLite' section. -->
-
-<div id="openrefine"> <!-- Start of 'OpenRefine' section. -->
-  <h3>OpenRefine</h3>
-  <p>
-    For this lesson you will need <em>OpenRefine</em> and a
-    web browser. <em>Note:</em> this is a Java program that runs on your machine (not in the cloud).
-    It runs inside a web browser, but no web connection is needed.
-  </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="openrefine-windows">Windows</h4>
-      <p>
-        Check that you have either the Firefox or the Chrome browser installed and set as your default browser.
-        <strong>OpenRefine runs in your default browser.</strong>
-        It will not run correctly in Internet Explorer.
-      </p>
-      <p>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a></p>
-      <p>Create a new directory called OpenRefine.</p>
-      <p>Unzip the downloaded file into the OpenRefine directory by right-clicking and selecting "Extract ...". </p>
-      <p>Go to your newly created OpenRefine directory.</p>
-      <p>Launch OpenRefine by clicking <code>google-refine.exe</code> (this will launch a command prompt window, but you can ignore that - just wait for OpenRefine to open in the browser).</p>
-      <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="openrefine-mac">Mac</h4>
-      <p>Check that you have either the Firefox or the Chrome browser installed and set as your default browser. <strong>OpenRefine runs in your default browser.</strong> It may not run correctly in Safari.</p>
-      <p>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a>.</p>
-      <p>Create a new directory called OpenRefine.</p>
-      <p>Unzip the downloaded file into the OpenRefine directory by double-clicking it.</p>
-      <p>Go to your newly created OpenRefine directory.</p>
-      <p>Launch OpenRefine by dragging the icon into the Applications folder.</p>
-      <p>Use <code>Ctrl-click/Open ... </code> to launch it.</p>
-      <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="openrefine-linux">Linux</h4>
-      <p>Check that you have either the Firefox or the Chrome browser installed and set as your default browser. <strong>OpenRefine runs in your default browser.</strong></p>
-      <p>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a>.</p>
-      <p>Make a directory called OpenRefine.<p>
-      <p>Unzip the downloaded file into the OpenRefine directory.</p>
-      <p>Go to your newly created OpenRefine directory.</p>
-      <p>Launch OpenRefine by entering <code>./refine</code> into the terminal within the OpenRefine directory.</p>
-      <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
-    </div>
-  </div>
-</div> <!-- End of 'OpenRefine' section. -->
 
 <!--
   Uncomment this section if you are using our virtual machine.
