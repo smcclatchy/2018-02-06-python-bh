@@ -193,23 +193,23 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
         <div class="col-md-6">
             <h3>Tuesday, February 6</h3>
                 <table class="table table-striped">
-                    <tr> <td>09:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/">Workshop Overview</td> </tr>
-                    <tr> <td>09:15</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/01-numpy/">Analyzing Patient Data</td> </tr>
+                    <tr> <td>09:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/">Workshop Overview</a></td> </tr>
+                    <tr> <td>09:15</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/01-numpy/">Analyzing Patient Data</a></td> </tr>
                     <tr> <td>10:45</td>  <td>Coffee</td> </tr>
-                    <tr> <td>11:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/02-loop/">Repeating Actions with Loops</td> </tr>
+                    <tr> <td>11:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/02-loop/">Repeating Actions with Loops</a></td> </tr>
                     <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-                    <tr> <td>13:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/03-lists/">Storing Multiple Values in Lists</td> </tr>
-                    <tr> <td>14:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/04-files/">Analyzing Data from Multiple Files</td> </tr>     
+                    <tr> <td>13:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/03-lists/">Storing Multiple Values in Lists</a></td> </tr>
+                    <tr> <td>14:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/04-files/">Analyzing Data from Multiple Files</a></td> </tr>
                     <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-                    <tr> <td>14:45</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/05-cond/">Making Choices</td> </tr>                    
-                    <tr> <td>15:45</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/06-func/">Creating Functions</td> </tr>
+                    <tr> <td>14:45</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/05-cond/">Making Choices</a></td> </tr>
+                    <tr> <td>15:45</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/06-func/">Creating Functions</a></td> </tr>
                     <tr> <td>16:15</td>  <td>Wrap-up</td> </tr>
                 </table>
             </div>
         <div class="col-md-6">
             <h3>Wednesday, February 7</h3>
                 <table class="table table-striped">
-                        <tr> <td>09:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/07-errors/">Errors and Exceptions</td> </tr>
+                        <tr> <td>09:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/07-errors/">Errors and Exceptions</a></td> </tr>
                         <tr> <td>10:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/08-defensive/">Defensive Programming</a> </td> </tr>
                         <tr> <td>10:45</td>  <td>Coffee</td> </tr>
                         <tr> <td>11:00</td>  <td><a href="{{swc_pages}}/python-novice-inflammation/09-debugging/">Debugging</a></td> </tr>
