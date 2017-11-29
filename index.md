@@ -41,7 +41,7 @@ eventbrite: 40878987151
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
   width="100%"
-  height="248px"
+  height="268px"
   scrolling="auto">
 </iframe>
 {% endif %}
@@ -170,7 +170,7 @@ eventbrite: 40878987151
         ,
         {% endunless %}
       {% endif %}
-      <a href='mailto:{{email}}'>{{email}}</a>
+      <a href='mailto:{{page.email}}'>{{page.email}}</a>
     {% endfor %}
   {% else %}
     to-be-announced
