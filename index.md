@@ -10,10 +10,10 @@ humandate: "Feb 6-7, 2018"    # human-readable dates for the workshop (e.g., "Fe
 humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-02-06     # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-02-07        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Sue McClatchy", "Narayanan Raghupathy", "Georgi Kolishovski", "Glen Beane"] 
-helper: ["FIXME"]     
+instructor: ["Sue McClatchy", "Narayanan Raghupathy", "Georgi Kolishovski"]
+helper: ["Glen Beane"]
 email: ["susan.mcclatchy@jax.org"]    
-collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+collaborative_notes: https://public.etherpad-mozilla.org/p/2018-02-06-python-bh          
 eventbrite: 40878987151
 ---
 
@@ -93,6 +93,8 @@ eventbrite: 40878987151
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
   <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  JAX employees can locate the bioinformatics training room in building 1, unit 5 on
+  this <https://myjax-p.jax.org/Facilities/engineering/GeneralMap/rl_locator_map.pdf">campus map</a>.
 </p>
 {% endif %}
 
