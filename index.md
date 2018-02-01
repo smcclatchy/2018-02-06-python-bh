@@ -13,7 +13,7 @@ enddate: 2018-02-07        # machine-readable end date for the workshop in YYYY-
 instructor: ["Sue McClatchy", "Narayanan Raghupathy", "Georgi Kolishovski"]
 helper: ["Glen Beane"]
 email: ["susan.mcclatchy@jax.org"]    
-collaborative_notes: https://public.etherpad-mozilla.org/p/2018-02-06-python-bh          
+collaborative_notes: https://public.etherpad-mozilla.org/p/2018-02-06-python-bh
 eventbrite: 40878987151
 ---
 
@@ -94,7 +94,7 @@ eventbrite: 40878987151
   or
   <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
   JAX employees can locate the bioinformatics training room in building 1, unit 5 on
-  this <https://myjax-p.jax.org/Facilities/engineering/GeneralMap/rl_locator_map.pdf">campus map</a>.
+  this <a href="https://myjax-p.jax.org/Facilities/engineering/GeneralMap/rl_locator_map.pdf">campus map</a>.
 </p>
 {% endif %}
 
