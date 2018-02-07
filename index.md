@@ -216,7 +216,7 @@ eventbrite: 40878987151
             <table class="table table-striped">
                     <tr> <td>09:00</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/14-writing-functions/">Writing Functions</a></td> </tr>
                     <tr> <td>10:00</td>  <td><a href="https://github.com/narayananr/Python_SWC_Workshop/blob/master/Publication_Quality_Graphics.ipynb">Publication Quality Graphics</a> </td> </tr>
-                    <tr> <td>10:00</td>  <td><a href="https://raw.githubusercontent.com/narayananr/Python_SWC_Workshop/master/Attie_Liver_CC_Founders_EMASE_10k_counts.tsv">Get the data here</a> </td> </tr>
+                    <tr> <td>10:00</td>  <td><a href="https://raw.githubusercontent.com/narayananr/Python_SWC_Workshop/master/Attie_Liver_CC_Founders_EMASE_10k_counts.tsv">Get the data here or run exp_data_url = 'http://bit.ly/2FUEwxW'</a> </td> </tr>
                     <tr> <td>10:45</td>  <td>Coffee</td> </tr>
                     <tr> <td>11:00</td>  <td><a href="https://github.com/narayananr/Python_SWC_Workshop/blob/master/Publication_Quality_Graphics.ipynb">Publication Quality Graphics</a> </td> </tr>
                     <tr> <td>11:30</td>  <td>End</td> </tr>
